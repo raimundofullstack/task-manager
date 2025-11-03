@@ -11,7 +11,7 @@ Ideal para quem busca uma interface simples, moderna e eficiente para gerenciar 
 
 ## Link do projeto após o deploy
 
-https://task-manager-300e5dr6o-raimundo-martins-barretos-projects.vercel.app
+https://task-manager-pyxuk89lg-raimundo-martins-barretos-projects.vercel.app
 
 ---
 
