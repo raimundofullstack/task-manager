@@ -10,17 +10,17 @@ function AddTasks({ onAddTaskClick }) {
         type="text"
         placeholder="Digite o título da tarefa"
         value={title}
-        onChange={(event) => setTitle(event.target.value.trim())}
+        onChange={(event) => setTitle(event.target.value)}
       ></Input>
       <Input
         type="text"
         placeholder="Digite a descrição da tarefea"
         value={description}
-        onChange={(event) => setDescription(event.target.value.trim())}
+        onChange={(event) => setDescription(event.target.value)}
       ></Input>
       <button
         onClick={() => {
-          if (!title || !description) {
+          if (!title.trim() || !description.trim()) {
             return alert("Por favor, preencha todos os campos.");
           }
           onAddTaskClick(title, description);
